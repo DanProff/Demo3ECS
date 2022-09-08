@@ -1,8 +1,6 @@
 provider "aws" {
   region     = var.aws_region
   profile    = var.aws_profile
-  access_key = "AKIAYE2BDNU365ACXGET"
-  secret_key = "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"
 }
 
 module "ecs" {
